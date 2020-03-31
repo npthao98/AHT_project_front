@@ -1,0 +1,112 @@
+<div class="topbar">
+    <div class="container-fluid topbar__content">
+        <div class="topbar__welcome">
+            <i class='far fa-bookmark'></i>
+            <span>Welcome to Franco - an e-Commerce PSD Template!</span>
+        </div>
+        <div class="topbar__member">
+            <i class="fa fa-lock"></i>
+            <span>Member Login</span>
+        </div>
+        <div class="topbar__setting">
+            <i class="fa fa-cog"></i>
+            <span>Shop Setting</span>
+        </div>
+    </div>
+</div>
+<header class="header__content container-fluid">
+    <div class="header__logo">
+        <img src="../assets/images/logo.png" alt="logo">
+    </div>
+    <div class="header__menu montserrat-bold">
+        <ul>
+            <li>
+                <a href="#" class="montserrat-bold">home</a>
+            </li>
+            <li>
+                <a href="#" class="montserrat-bold">women</a>
+            </li>
+            <li>
+                <a href="#" class="montserrat-bold">men</a>
+            </li>
+            <li>
+                <a href="#" class="montserrat-bold">about us</a>
+            </li>
+            <li>
+                <a href="#" class="montserrat-bold">blog</a>
+            </li>
+            <li>
+                <a href="#" class="montserrat-bold">collections</a>
+            </li>
+            <li>
+                <a href="#" class="montserrat-bold">contact</a>
+            </li>
+            <li>
+                <i class='fas fa-search'></i>
+            </li>
+        </ul>
+    </div>
+    <div class="header__cart">
+        <a href="#">
+            <img src="../assets/images/wishlist.png" alt="wishlist">
+        </a>
+        <a href="#">
+            <img src="../assets/images/cart.png" alt="cart">
+        </a>
+    </div>
+    <div class="header__menu-mobile">
+        <a href="#" id="open-menu"><i class='fas fa-bars menu-icon'></i></a>
+        <div id="menu-mobile-content" class="menu-mobile-content">
+            <div class="top-mobile">
+                <a href="#" id="close-menu" class="alight-items-left"><i class='fas fa-bars menu-icon'></i></a>
+                <div class="header__logo alight-items-center">
+                    <img src="../assets/images/logo.png" alt="logo">
+                </div>
+                <a href="#" class="menu-mobile__search alight-items-right"><i class='fas fa-search'></i></a>
+            </div>
+            <div class="mobile-content">
+                <ul>
+                    <li class="mobile-content__item">
+                        <a href="#" class="montserrat-bold">home</a>
+                    </li>
+                    <li class="mobile-content__item">
+                        <a href="#" class="montserrat-bold">women</a>
+                    </li>
+                    <li class="mobile-content__item">
+                        <a href="#" class="montserrat-bold">men</a>
+                    </li>
+                    <li class="mobile-content__item">
+                        <a href="#" class="montserrat-bold">about us</a>
+                    </li>
+                    <li class="mobile-content__item">
+                        <a href="#" class="montserrat-bold">blog</a>
+                    </li>
+                    <li class="mobile-content__item"> 
+                        <a href="#" class="montserrat-bold">collections</a>
+                    </li>
+                    <li class="mobile-content__item">
+                        <a href="#" class="montserrat-bold">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-tool">
+                <a href="#">
+                    <img src="../assets/images/wishlist.png" alt="wishlist">
+                </a>
+                <a href="#">
+                    <img src="../assets/images/cart.png" alt="cart">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<script>
+    $(document).ready(function(){
+        $("#open-menu").click(function(){
+            $("#menu-mobile-content").slideDown();
+        });
+        $("#close-menu").click(function(){
+            $("#menu-mobile-content").slideUp();
+        });
+  });
+</script>

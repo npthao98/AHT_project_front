@@ -1,0 +1,59 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+
+}
+
+@mixin transition($transitions) {
+    -webkit-transition: $transitions;
+       -moz-transition: $transitions;
+        -ms-transition: $transitions;
+            transition: $transitions;
+
+}
+
+@mixin transform($transforms) {
+    -webkit-transform: $transforms;
+       -moz-transform: $transforms;
+        -ms-transform: $transforms;
+            transform: $transforms;
+
+}
+
+@mixin animation($animation) {
+    -webkit-animation: $animation;
+       -moz-animation: $animation;
+        -ms-animation: $animation;
+            animation: $animation;
+
+}
+
+/* text alight*/
+.alight-items-center{
+    text-align: center;
+}
+.alight-items-right{
+    text-align: right;
+}
+.alight-items-left{
+    text-align: left;
+}
+
+/*image*/
+.image-fill{
+    max-width: 100%;
+}
+
+/*font*/
+.montserrat-bold{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.montserrat-regular{
+    font-family: 'Montserrat';
+}
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}

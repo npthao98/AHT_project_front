@@ -1,0 +1,19 @@
+/* 
+1.0 Common/Configskin
+2.0 Base
+    2.1 Header
+        2.1.1 Topbar
+        2.1.2 Header Content
+    2.2 Footer
+        2.2.1 Footer Top
+        2.2.2 Footer Bottom
+3.0 Content
+*/
+$main-color: #8262b5;
+@import './common/configskin/skin.scss';
+@import './common/configskin/reset.scss';
+@import './base/_header.scss';
+@import './base/footer';
+@import './content/home_page_content.scss';
+
+
