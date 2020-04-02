@@ -34,7 +34,7 @@
         li{
           text-transform: uppercase;
           display: inline-block;
-          padding: 0px 45px;
+          padding: 0px 28px;
           a{
             color: #000000;
             font-size: 14px;
@@ -72,13 +72,13 @@
   .header .header__content{
     .header__menu{
       li{
-        padding: 0px 20px !important;
+        padding: 0px 1.6% !important;
       }
     }
   }
 }
 /* Dành cho máy tính bảng chiều ngang */
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1068px) {
   .header .header__content{
     .header__menu{
       display: none;
@@ -156,8 +156,7 @@
 
 }
 
-/* Dành cho máy tính bảng chiều dọc */
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
   .header .topbar{
     .topbar__setting, .topbar__member{
       margin-left: 15px;
@@ -169,7 +168,7 @@
 }
 
 /*Danh cho dien thoai*/
-@media all and (max-width: 320px) {
+@media all and (max-width: 480px) {
   .header .topbar{
     .topbar__welcome{
       display: none;

@@ -107,7 +107,7 @@
 }
 
 /* Dành cho máy tính bảng to chiều dọc */
-@media all and (max-width: 768px) {
+@media all and (max-width: 991px) {
     footer{
         .main-footer{
             .footer-block{
@@ -131,7 +131,16 @@
 }
 
 /* Dành cho máy tính bảng chiều dọc */
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
+    footer{
+        .bottom-footer{
+            text-align: center;
+            .bottom-footer__left, .bottom-footer__right{
+                float: none;
+            }
+        }
+    }
+    
 }
 
 /*Danh cho dien thoai*/
@@ -145,12 +154,6 @@
                 .col-6{
                     padding-left: 0px;
                 }
-            }
-        }
-        .bottom-footer{
-            text-align: center;
-            .bottom-footer__left, .bottom-footer__right{
-                float: none;
             }
         }
     }
